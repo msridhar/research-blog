@@ -1,0 +1,11 @@
+baseurl = "http://manu.sridharan.net/blog"
+languageCode = "en-us"
+title = "Transitive Closure"
+[params]
+  Description = "Manu Sridharan's research blog.  Posts are my own."
+[[menu.main]]
+  name = "Home page"
+  url = "http://manu.sridharan.net"
+[[menu.main]]
+  name = "Twitter"
+  url = "http://twitter.com/rakingleaves"
