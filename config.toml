@@ -1,6 +1,7 @@
 baseurl = "http://manu.sridharan.net/blog"
 languageCode = "en-us"
 title = "Transitive Closure"
+theme = "hyde"
 [params]
   Description = "Manu Sridharan's research blog.  Posts are my own."
 [[menu.main]]
@@ -9,3 +10,5 @@ title = "Transitive Closure"
 [[menu.main]]
   name = "Twitter"
   url = "http://twitter.com/rakingleaves"
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
