@@ -11,7 +11,7 @@
       {{ range .Site.Menus.main }}
         <li><a href="{{.Url}}"> {{ .Name }} </a></li>
       {{end}}
-      <li><a href="{{ .RSSLink }}">RSS</a></li>
+      <li><a href="/blog/index.xml">RSS</a></li>
     </ul>
 
     <p>{{ with .Site.Params.Copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}} Manu Sridharan. All rights reserved. {{end}}</p>
