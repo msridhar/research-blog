@@ -32,5 +32,11 @@ On my MacBook Pro, this searches around 250 PDF files in less than 20
 seconds.  I installed pdfgrep and GNU Parallel using MacPorts, but I'm
 guessing Homebrew or direct installation will also work fine.
 
+**UPDATE**: I just realized that on Mac, once you have the PDFs
+  downloaded to a folder, you can just search within the folder using
+  Finder, and it will be a lot faster than pdfgrep.  But the above can
+  still be useful if you want to do regexp search or otherwise
+  integrate the search results with a command-line workflow.
+
 
 
